@@ -1,0 +1,30 @@
+body{
+  background-color:lightsteelblue;
+  text-align: center;
+
+}
+
+
+button{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  background-color:lightseagreen;
+  font-weight: bold;
+  border:solid 3px darkgoldenrod;
+  color:antiquewhite;
+
+}
+
+button:hover{
+  opacity: 0.5;
+}
+
+*{
+  color:brown;
+}
+h1{
+  color: darkblue;
+  border-top:2px double black;
+  border-bottom:2px double black;
+}

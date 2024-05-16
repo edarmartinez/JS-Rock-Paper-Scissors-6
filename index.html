@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game of Rock Paper Scissors</title>
+  <style>
+    body {
+      background-color: pink; 
+    }
+
+    
+    #choices button {
+      background-color: purple;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Added a cool background image for a gaming atmosphere -->
+  <div style="background-image: url('background.jpg'); background-size: cover; padding: 20px;">
+    <!-- Added a dynamic title to make it more engaging -->
+    <h1>👊 Game of Rock Paper Scissors 👋</h1>
+    <div>
+      <!-- Improved the user instructions for clarity and engagement -->
+      User, make your choice by clicking on any of the buttons below:
+      <br /><br />
+    </div>
+    <div id="choices">
+      <!-- Added emojis to buttons for a fun touch -->
+      <button id="btnRock">🪨 Rock</button>
+      <button id="btnPaper">📄 Paper</button>
+      <button id="btnScissors">✂️ Scissors</button>
+    </div>
+    <br /><br />
+    <!-- Changed the layout to display user and computer choices side by side -->
+    <div id="choices-container" style="display: flex; justify-content: space-around;">
+      <div id="UserChoice"></div>
+      <div id="ComputerChoice"></div>
+    </div>
+    <hr /><br />
+    <!-- Added a dynamic message area to display the winner -->
+    <h2 id="msgWinner"></h2>
+  </div>
+
+  <!-- Moved the script to the bottom of the body for better performance -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
